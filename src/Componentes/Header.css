@@ -1,0 +1,299 @@
+.navbar {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 60px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-width: 100%;
+  }
+  .logo-header{
+
+    top: 19px;
+    left: 138px;
+    width: 101px;
+    height: 19px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+  
+  .nav-menu {
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  .ref1{
+
+    left: 70%;
+    width: 57px; 
+    color: #2A3037;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    text-decoration: none;
+    top: 20px;
+}   
+.ref2{
+
+    left: 80%;
+    width: 119px;  
+    color: #CBD0D3;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    text-decoration: none;
+    top: 20px;
+}
+.ref3{
+
+   
+    left: 90%;
+    width: 50px;   
+    color: #CBD0D3;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    text-decoration: none;
+    top: 20px;
+}
+  
+  .fa-bars {
+    color: #000000;
+    position: absolute;
+    top: 33px;
+    right: 26px;
+    width: 20px;
+    height: 14px;
+  }
+  
+  .menu-mobile-icon {
+    display: none;
+  }
+  
+
+  /* Comienza MEDIA Pantallas medianas */
+@media screen and (min-width: 700px) and (max-width: 992px){
+
+  .NavbarItems {
+    position: relative;
+  }
+
+  .navbar {
+      height: 50px;
+      top: 0;
+    }
+  
+  
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background:#FFFFFF;
+    left: 74%;
+    opacity: 1;
+    width: 217px;
+    padding: 0;
+    height: 640px;
+    transition: all 0.5s ease;
+    z-index: 1;
+    box-shadow: 0px 10px 20px #00000029;
+    top: 49px;
+  }
+
+  .ref1{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    left: 0;
+    height: 21px;
+    top: 55px;
+    color: #2A3037;
+    font: normal normal normal 18px/13px Montserrat;
+   
+          
+  }
+  .ref2{
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+      top: 110px;
+      left: 0;
+      height: 21px;
+      font: normal normal normal 18px/13px Montserrat;
+      color: #2A3037;
+
+      
+  }
+  .ref3{
+
+      top: 165px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: 2rem;
+      height: 21px;
+      font: normal normal normal 18px/13px Montserrat;
+      color: #2A3037;
+ 
+
+  }
+
+  .logo-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-mobile-icon {
+    display: block;
+    position: absolute;
+    top: -23px;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #000000;
+    font-size: 2rem;
+  }
+
+
+}
+  
+  /* COMIENZA SECCION MEDIA */
+  @media screen and (max-width: 460px) {
+    .NavbarItems {
+      position: relative;
+    }
+
+    .navbar {
+        height: 50px;
+        top: 0;
+      }
+    
+    
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background:#FFFFFF;
+      left: 54%;
+      opacity: 1;
+      width: 217px;
+      padding: 0;
+      height: 640px;
+      transition: all 0.5s ease;
+      z-index: 1;
+      box-shadow: 0px 10px 20px #00000029;
+      top: 49px;
+    }
+  
+    .ref1{
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+      left: 0;
+      height: 21px;
+      top: 55px;
+      font: normal normal normal 18px/13px Montserrat;
+      letter-spacing: 0px;
+      color: #2A3037;
+            
+    }
+    .ref2{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        top: 110px;
+        left: 0;
+        height: 21px;
+        font: normal normal normal 18px/13px Montserrat;
+        letter-spacing: 0px;
+        color: #2A3037;
+        
+    }
+    .ref3{
+
+        top: 165px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+        height: 21px;
+        font: normal normal normal 18px/13px Montserrat;
+        letter-spacing: 0px;
+        color: #2A3037;
+
+    }
+  
+    .logo-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  
+    .menu-mobile-icon {
+      display: block;
+      position: absolute;
+      top: -23px;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #000000;
+      font-size: 2rem;
+    }
+  
+  }

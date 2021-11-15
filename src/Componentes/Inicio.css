@@ -1,0 +1,679 @@
+.parallax-banner-layer-0{
+
+    background-size: contain !important;
+    background-repeat: no-repeat !important ;
+}
+
+/* COMIENZA SECCION HOME */
+
+body{
+ 
+    overflow-x: hidden;
+    
+}
+.container-left{
+
+    position: absolute;
+    width: 720px !important;
+    height: 214px !important;
+    padding: 0 !important;
+    left: 139px;
+    top: 100px;
+
+}
+
+
+.titulo-home{
+
+
+    top: 0;
+    left: 43px;
+    width: 679px;
+    height: 53px;
+    text-align: left;
+    font: normal normal bold 48px/42px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    
+    
+}
+
+.pin{
+
+    top: 3px;
+    left: 0;
+    width: 24px;
+    height: 34px;
+    opacity: 1;
+    position: absolute;
+    
+}
+
+.divider{
+
+    top: 83px;
+    left: 0.5px;
+    width: 536px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    opacity: 1;
+    margin: 0 !important;
+    
+    
+}
+.texto_home{
+
+
+    top: 107px;
+    left: 0;
+    width: 720px;
+    height: 18px;
+    text-align: left;
+    font: normal normal bold 24px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+.texto_descriptivo_home{
+
+
+    bottom: 0;
+    left: 0;
+    width: 536px;
+    height: 61px;
+    text-align: left;
+    font: normal normal normal 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+
+}
+/*  COMIENZA SECCION TENDENCIAS */
+
+.box-tendencias{
+
+    text-align: center;
+    color: rgba(42, 48, 55, 1);
+    font: normal normal bold 24px/20px Montserrat;
+    line-height:50px; 
+    
+}
+.place_image2,.place_image3,.place_image4{
+
+    color: #FFFFFF;
+    position: absolute;
+    font: normal normal bold 24px/20px Montserrat;
+    right: 30px;
+    top: 50px;
+
+}
+.tittle_image2,.tittle_image3,.tittle_image4{
+
+    color: #FFFFFF;
+    position: absolute;
+    font: normal normal bold 16px/20px Montserrat;
+    left: 30px;
+    top: 30px;
+    
+}
+.paragraph_image2,.paragraph_image4{
+
+    text-align: left;
+    font: normal normal bold 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #d8e2dc;
+    opacity: 1;
+    width: 400px;
+    height: 38px;
+    position: absolute;
+    right: 10px;
+    bottom: 125px;
+   
+
+}
+.paragraph_image3{
+
+    text-align: left;
+    font: normal normal bold 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #d8e2dc;
+    opacity: 1;
+    width: 400px;
+    height: 38px;
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+
+}
+
+/* COMIENZA SECCION BLOG */
+.card-image{
+
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.cg-blog-right{
+
+    width: 100%;
+    height: 300px; 
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    top: 265vh;
+    padding: 0 !important;
+
+}
+
+
+.col-blog-03{
+
+    padding: 0 !important;
+    top: 80px;
+    position: relative;
+    display: inline-block;
+    left: 36px;
+   
+
+}
+
+.card03-text-blog{
+
+    width: 335px;
+    height: 16px;   
+    text-align: left;
+    font: normal normal bold 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #202124;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 230px;
+}
+
+.icon03-time{
+
+    width: 16px;
+    height: 16px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 261px;
+
+}
+
+.card03-time-blog{
+
+    width: 62px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 13px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #CBD0D3;
+    opacity: 1;
+    position: absolute;
+    left: 21px;
+    top:256px;
+
+}
+
+
+.col-blog-04{
+
+    padding: 0 !important;
+    top: 80px;
+    position: absolute;
+    left: 650px;
+
+}
+
+.card04-text-blog{
+
+    width: 335px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #202124;;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 230px;
+}
+
+.icon04-time{
+
+    width: 16px;
+    height: 16px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 261px;
+
+}
+
+.card04-time-blog{
+
+    width: 60px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 13px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #CBD0D3;
+    opacity: 1;
+    position: absolute;
+    left: 21px;
+    top:256px;
+
+}
+
+.col-blog-05{
+
+    padding: 0 !important;
+    top: 80px;
+    position: absolute;
+    left: 1244px;
+
+}
+
+.card05-text-blog{
+
+    width: 335px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #202124;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 230px;
+}
+
+.icon05-time{
+
+    width: 16px;
+    height: 16px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 261px;
+
+}
+
+.card05-time-blog{
+
+    width: 60px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 13px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #CBD0D3;
+    opacity: 1;
+    position: absolute;
+    left: 21px;
+    top:256px;
+
+}
+/* Comienza MEDIA Pantallas medianas */
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    .parallax-banner-layer-0{
+
+            background-size: cover !important;
+            background-repeat: no-repeat !important ;
+            background-position: center !important;
+        
+    }
+    
+    /* COMIENZA SECCION HOME */
+    
+    body{
+     
+        overflow-x: hidden;
+        
+    }
+    .container-left{
+    
+        width: 286px !important;
+        height: 108px !important;
+        left: 37px;
+        top: 277px;
+    
+    }
+    
+    
+    .titulo-home{
+    
+    
+        top: -9px;
+        left: 15px;
+        width: 264px;
+        height: 24px;
+        font: normal normal bold 24px/42px Montserrat;
+        
+        
+        
+    }
+    
+    .pin{
+    
+        top: 3px;
+        left: 0;
+        width: 12px;
+        height: 17px;
+        
+        
+    }
+    
+    .divider{
+    
+        top: 48px;
+        left: 0px;
+        width: 286px;
+        height: 0px;
+        margin: 0 !important;
+        
+        
+    }
+    .texto_home{
+    
+        top: 68px;
+        left: 0px;
+        width: 286px;
+        height: 60px;
+        text-align: left;
+        letter-spacing: 0px;
+        font: normal normal bold 24px/34px Montserrat;
+    }
+    .texto_descriptivo_home{
+    
+    
+        opacity: 0;
+        
+    
+    }
+    /*  COMIENZA SECCION TENDENCIAS */
+    .place_image2,.place_image3,.place_image4{
+
+       
+    
+        font: normal normal bold 22px/20px Montserrat;
+        right: 0;
+        top: 85%;
+    
+    }
+
+    .tittle_image2,.tittle_image3,.tittle_image4{
+    
+        color: #FFFFFF;
+        position: absolute;
+        font: normal normal bold 14px/20px Montserrat;
+        left: 0;
+        top: 30px;
+        
+    }
+    .paragraph_image2,.paragraph_image4{
+    
+        
+        opacity: 0;
+        width: none;
+        height: none;
+        position: none;
+        right: none;
+        bottom: none;
+       
+    
+    }
+    .paragraph_image3{
+    
+        opacity: 0;
+        width: none;
+        height: none;
+        position: none;
+        right: none;
+        bottom: none;
+    
+    }
+    
+    /* COMIENZA SECCION BLOG */
+    .card-image{
+    
+        background: transparent 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .cg-blog-right{
+    
+        
+        display: grid;
+        top: 265vh;
+        height: 50vh;
+
+    
+    }
+    
+    
+    .col-blog-03{
+    
+
+        top: 5vh;
+        left: 25%;
+       
+    
+    }
+    
+    .card03-text-blog{
+    
+        width: 100%;
+        height: 16px;   
+        left: 0;
+        top: 230px;
+    }
+    
+    
+    
+    .col-blog-04{
+    
+        padding: 0 !important;
+        top: 45vh;
+        position: absolute;
+        left: 25%;
+    
+    }
+    
+    .col-blog-05{
+    
+        padding: 0 !important;
+        top: 85vh;
+        position: absolute;
+        left: 25%;
+    
+    }
+}
+
+
+@media screen and (max-width: 460px){
+
+    .parallax-banner-layer-0{
+
+            background-size: cover !important;
+            background-repeat: no-repeat !important ;
+            background-position: center !important;
+        
+    }
+    
+    /* COMIENZA SECCION HOME */
+    
+    body{
+     
+        overflow-x: hidden;
+        
+    }
+    .container-left{
+    
+        width: 286px !important;
+        height: 108px !important;
+        left: 37px;
+        top: 277px;
+    
+    }
+    
+    
+    .titulo-home{
+    
+    
+        top: -9px;
+        left: 15px;
+        width: 264px;
+        height: 24px;
+        font: normal normal bold 24px/42px Montserrat;
+        
+        
+        
+    }
+    
+    .pin{
+    
+        top: 3px;
+        left: 0;
+        width: 12px;
+        height: 17px;
+        
+        
+    }
+    
+    .divider{
+    
+        top: 48px;
+        left: 0px;
+        width: 286px;
+        height: 0px;
+        margin: 0 !important;
+        
+        
+    }
+    .texto_home{
+    
+        top: 68px;
+        left: 0px;
+        width: 286px;
+        height: 60px;
+        text-align: left;
+        letter-spacing: 0px;
+        font: normal normal bold 24px/34px Montserrat;
+    }
+    .texto_descriptivo_home{
+    
+    
+        opacity: 0;
+        
+    
+    }
+    /*  COMIENZA SECCION TENDENCIAS */
+    .place_image2,.place_image3,.place_image4{
+
+       
+    
+        font: normal normal bold 22px/20px Montserrat;
+        right: 0;
+        top: 85%;
+    
+    }
+
+    .tittle_image2,.tittle_image3,.tittle_image4{
+    
+        color: #FFFFFF;
+        position: absolute;
+        font: normal normal bold 14px/20px Montserrat;
+        left: 0;
+        top: 30px;
+        
+    }
+    .paragraph_image2,.paragraph_image4{
+    
+        
+        opacity: 0;
+        width: none;
+        height: none;
+        position: none;
+        right: none;
+        bottom: none;
+       
+    
+    }
+    .paragraph_image3{
+    
+        opacity: 0;
+        width: none;
+        height: none;
+        position: none;
+        right: none;
+        bottom: none;
+    
+    }
+    
+    /* COMIENZA SECCION BLOG */
+    .card-image{
+    
+        background: transparent 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .cg-blog-right{
+    
+        
+        display: grid;
+        top: 265vh;
+        height: 50vh;
+
+    
+    }
+    
+    
+    .col-blog-03{
+    
+
+        top: 5vh;
+        left: 2%;
+       
+    
+    }
+    
+    .card03-text-blog{
+    
+        width: 100%;
+        height: 16px;   
+        left: 0;
+        top: 230px;
+    }
+    
+    
+    
+    .col-blog-04{
+    
+        padding: 0 !important;
+        top: 45vh;
+        position: absolute;
+        left: 2%;
+    
+    }
+    
+    .col-blog-05{
+    
+        padding: 0 !important;
+        top: 85vh;
+        position: absolute;
+        left: 2%;
+    
+    }
+}
